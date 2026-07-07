@@ -1,3 +1,5 @@
-------------------------------------------------------------
-ID: 1781875578832 | Name: Tanish Kumar | Age: 21 | Disease: Fever | Date: 6/19/2026
-------------------------------------------------------------
+[7/7/2026, 3:58:20 PM] | ADDED | ID: 1783420100287 | Patient: Tanish Kumar | Age: 23 | Diagnosis: COVID | AdmDate: 2026-07-07
+
+[7/7/2026, 3:58:48 PM] | ADDED | ID: 1783420128033 | Patient: Rohan | Age: 28 | Diagnosis: Malaria | AdmDate: 2026-07-07
+
+[7/7/2026, 3:59:35 PM] | DELETED | ID: 1783420128033 | Patient: Rohan
