@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     /* Smooth transitions jab JavaScript background badlega */
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: #fff;
     padding: 20px;
     transition: background 0.8s ease;
@@ -89,7 +89,7 @@ h1 {
 .search-box button:hover {
     background: rgba(255, 255, 255, 0.9);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .weather-info {
@@ -110,7 +110,7 @@ h1 {
 .icon-container img {
     width: 100px;
     height: 100px;
-    filter: drop-shadow(0px 8px 12px rgba(0,0,0,0.15));
+    filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.15));
 }
 
 .weather-info h3 {
@@ -184,8 +184,15 @@ h1 {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(15px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Responsive adjustments */
@@ -193,11 +200,14 @@ h1 {
     .weather-box {
         padding: 30px 20px;
     }
+
     .weather-grid {
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .weather-info h3 {
         font-size: 56px;
     }
+
 }
